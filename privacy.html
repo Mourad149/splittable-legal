@@ -23,7 +23,14 @@
     li { margin-bottom: 6px; }
     a.back { display: inline-block; margin-bottom: 32px; font-weight: 600; color: #888; text-decoration: none; }
     code { background: #f3f3f3; padding: 2px 5px; border-radius: 3px; font-size: 13px; }
+    .lang { display: flex; gap: 16px; margin-top: 48px; padding-top: 24px;
+            border-top: 0.5px solid rgba(127,127,127,0.35); }
+    .lang a { font-size: 13px; color: #888; text-decoration: none; }
+    .lang a.active { color: #111; }
+    @media (prefers-color-scheme: dark) { .lang a.active { color: #f5f5f5; } }
   </style>
+  <link rel="alternate" hreflang="en" href="privacy.html">
+  <link rel="alternate" hreflang="fr" href="fr/privacy.html">
 </head>
 <body>
   <a class="back" href="index.html">← All legal documents</a>
@@ -84,5 +91,9 @@
 
   <h2>Contact</h2>
   <p>Questions, requests, complaints: <a href="mailto:support@xn--jon-0ma.fr">support@xn--jon-0ma.fr</a>. We aim to reply within 5 working days.</p>
+  <div class="lang">
+    <a class="active" href="privacy.html">English</a>
+    <a href="fr/privacy.html">Français</a>
+  </div>
 </body>
 </html>
