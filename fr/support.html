@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Joïn — Assistance</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+           max-width: 640px; margin: 64px auto; padding: 0 24px;
+           line-height: 1.55; color: #111; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0a0a0a; color: #f5f5f5; }
+      a { color: #b48cff; }
+      details summary { color: #f5f5f5; }
+      .meta, p.meta { color: #888; }
+    }
+    h1 { font-size: 32px; font-weight: 800; letter-spacing: -0.5px; margin: 0 0 16px; }
+    h2 { font-size: 18px; font-weight: 700; margin: 32px 0 8px; }
+    p.meta { color: #888; font-size: 14px; margin: 0 0 24px; }
+    a.contact { display: inline-block; padding: 12px 18px; margin-top: 8px;
+                background: #111; color: #fff; border-radius: 10px;
+                font-weight: 600; text-decoration: none; }
+    @media (prefers-color-scheme: dark) {
+      a.contact { background: #f5f5f5; color: #0a0a0a; }
+    }
+    details { padding: 14px 0; border-bottom: 0.5px solid rgba(127,127,127,0.35); }
+    details summary { font-weight: 600; cursor: pointer; list-style: none; }
+    details summary::-webkit-details-marker { display: none; }
+    details summary::after { content: "+"; float: right; color: #888; }
+    details[open] summary::after { content: "−"; }
+    details p { margin: 10px 0 0; color: #555; font-size: 15px; }
+    @media (prefers-color-scheme: dark) { details p { color: #bbb; } }
+    .lang { display: flex; gap: 16px; margin-top: 40px; padding-top: 24px;
+            border-top: 0.5px solid rgba(127,127,127,0.35); }
+    .lang a { font-size: 13px; color: #888; text-decoration: none; }
+    .lang a.active { color: #111; }
+    @media (prefers-color-scheme: dark) { .lang a.active { color: #f5f5f5; } }
+    .back { display: inline-block; margin-top: 24px; font-size: 13px; color: #888; text-decoration: none; }
+  </style>
+  <link rel="alternate" hreflang="en" href="../support.html">
+  <link rel="alternate" hreflang="fr" href="support.html">
+</head>
+<body>
+  <p style="margin: 0 0 24px;"><img src="logo.svg" alt="Joïn" width="112" height="112"></p>
+  <h1>Joïn — Assistance</h1>
+  <p class="meta">Besoin d'aide avec l'application&nbsp;? Nous répondons en général sous 48&nbsp;heures, du lundi au vendredi.</p>
+
+  <a class="contact" href="mailto:zinbimourad149@gmail.com?subject=Assistance%20Jo%C3%AFn">Contacter l'assistance</a>
+
+  <h2>Questions fréquentes</h2>
+
+  <details>
+    <summary>Comment créer une table ou un événement&nbsp;?</summary>
+    <p>Ouvre l'application, appuie sur le bouton «&nbsp;+&nbsp;», choisis le lieu, la date et le nombre de places, puis indique le prix par place. La table peut rester privée entre amis ou ouvrir des places au public pour que d'autres utilisateurs puissent rejoindre.</p>
+  </details>
+
+  <details>
+    <summary>Comment fonctionne le partage de l'addition&nbsp;?</summary>
+    <p>L'organisateur fixe un prix par place à la création. Chaque personne qui rejoint accepte ce montant avant d'être ajoutée. Joïn garde la trace de qui a payé quoi, donc plus de calculs à la fin de la soirée.</p>
+  </details>
+
+  <details>
+    <summary>Puis-je annuler ma place à une table&nbsp;?</summary>
+    <p>Oui. Ouvre la table depuis l'onglet «&nbsp;Mes soirées&nbsp;» et appuie sur «&nbsp;Quitter&nbsp;». Les règles d'annulation dépendent de la proximité de l'événement&nbsp;; la politique de l'hôte est affichée avant que tu confirmes ta participation.</p>
+  </details>
+
+  <details>
+    <summary>Comment supprimer mon compte&nbsp;?</summary>
+    <p>Va dans Profil → Réglages → Compte → Supprimer le compte. Ton profil, tes tables et tes messages sont effacés définitivement. Certaines données peuvent être conservées pour des raisons légales (par ex. les reçus de paiement) comme expliqué dans notre politique de confidentialité.</p>
+  </details>
+
+  <details>
+    <summary>Je pense que quelqu'un abuse de l'application</summary>
+    <p>Chaque profil, table et message a une option «&nbsp;Signaler&nbsp;». Les signalements sont examinés par notre équipe et traités sous 24&nbsp;heures. Pour les situations de sécurité urgentes, écris-nous directement par e-mail.</p>
+  </details>
+
+  <details>
+    <summary>L'application plante ou se comporte bizarrement</summary>
+    <p>Assure-toi d'utiliser la dernière version depuis l'App Store et que ton iOS est à jour. Si le problème persiste, écris-nous avec le modèle de ton appareil, la version d'iOS et une courte description&nbsp;— une capture d'écran aide beaucoup.</p>
+  </details>
+
+  <p style="margin-top: 32px;"><a class="back" href="index.html">← Retour à Joïn</a></p>
+
+  <div class="lang">
+    <a href="../support.html">English</a>
+    <a class="active" href="support.html">Français</a>
+  </div>
+</body>
+</html>
